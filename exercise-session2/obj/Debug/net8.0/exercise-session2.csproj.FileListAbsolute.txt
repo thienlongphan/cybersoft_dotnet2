@@ -1,0 +1,15 @@
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\obj\Debug\net8.0\exercise-session2.GeneratedMSBuildEditorConfig.editorconfig
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\obj\Debug\net8.0\exercise-session2.AssemblyInfoInputs.cache
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\obj\Debug\net8.0\exercise-session2.AssemblyInfo.cs
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\obj\Debug\net8.0\exercise-session2.csproj.CoreCompileInputs.cache
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\obj\Debug\net8.0\exercise-session2.sourcelink.json
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\bin\Debug\net8.0\exercise-session2.exe
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\bin\Debug\net8.0\exercise-session2.deps.json
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\bin\Debug\net8.0\exercise-session2.runtimeconfig.json
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\bin\Debug\net8.0\exercise-session2.dll
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\bin\Debug\net8.0\exercise-session2.pdb
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\obj\Debug\net8.0\exercise-session2.dll
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\obj\Debug\net8.0\refint\exercise-session2.dll
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\obj\Debug\net8.0\exercise-session2.pdb
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\obj\Debug\net8.0\exercise-session2.genruntimeconfig.cache
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\exercise-session2\obj\Debug\net8.0\ref\exercise-session2.dll
