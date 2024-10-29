@@ -151,7 +151,7 @@ Console.WriteLine("Hello, World!");
 // {
 //     for (int j = 0; j < num - i - 1; j++)
 //     {
-//         Console.Write(" ");
+//         Console.Write("^");
 //     }
 //
 //     for (int k = 0; k < 2 * i + 1; k++)
@@ -170,5 +170,63 @@ Console.WriteLine("Hello, World!");
 // *         *
 // ***********
 
+// Console.WriteLine("Please enter height: ");
+// int height = Convert.ToInt32(Console.ReadLine());
+//
+// Console.WriteLine("Please enter width: ");
+// int width = Convert.ToInt32(Console.ReadLine());
+//
+// for (int i = 0; i < height; i++)
+// {
+//  if (i == 0 || i == height - 1)
+//  {
+//   for (int j = 0; j < width; j++)
+//   {
+//    Console.Write("*");
+//   }
+//  }
+//  else
+//  {
+//   for (int j = 0; j < width; j++)
+//   {
+//    if (j == 0 || j == width - 1)
+//    {
+//     Console.Write("*");
+//    }
+//    else
+//    {
+//     Console.Write(" ");
+//    }
+//   }
+//  }
+//
+//  Console.WriteLine();
+// }
+
+// Two sum
+int[] nums = new int[] { 3,3 };
+
+Console.WriteLine("Please enter target: ");
+int target = Convert.ToInt32(Console.ReadLine());
+int[] result = new int[] {};
+for (int i = 0; i < nums.Length; i++)
+{
+  for (int j = nums.Length - 1; j >= 0; j--)
+  { 
+      int sum = nums[i] + nums[j];
+      
+      if (sum == target && i != j)
+      {
+          result = new int[] { i, j };
+          break;
+      }
+  }
+
+  if (result.Length > 0)
+  {
+      break;
+  }
+}
+Console.WriteLine($"Output: {result[0]} {result[1]}");
 #endregion
 
