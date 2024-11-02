@@ -204,29 +204,29 @@ Console.WriteLine("Hello, World!");
 // }
 
 // Two sum
-int[] nums = new int[] { 3,3 };
-
-Console.WriteLine("Please enter target: ");
-int target = Convert.ToInt32(Console.ReadLine());
-int[] result = new int[] {};
-for (int i = 0; i < nums.Length; i++)
-{
-  for (int j = nums.Length - 1; j >= 0; j--)
-  { 
-      int sum = nums[i] + nums[j];
-      
-      if (sum == target && i != j)
-      {
-          result = new int[] { i, j };
-          break;
-      }
-  }
-
-  if (result.Length > 0)
-  {
-      break;
-  }
-}
-Console.WriteLine($"Output: {result[0]} {result[1]}");
+// int[] nums = new int[] { 3,3 };
+//
+// Console.WriteLine("Please enter target: ");
+// int target = Convert.ToInt32(Console.ReadLine());
+// int[] result = new int[] {};
+// for (int i = 0; i < nums.Length; i++)
+// {
+//   for (int j = nums.Length - 1; j >= 0; j--)
+//   { 
+//       int sum = nums[i] + nums[j];
+//       
+//       if (sum == target && i != j)
+//       {
+//           result = new int[] { i, j };
+//           break;
+//       }
+//   }
+//
+//   if (result.Length > 0)
+//   {
+//       break;
+//   }
+// }
+// Console.WriteLine($"Output: {result[0]} {result[1]}");
 #endregion
 
