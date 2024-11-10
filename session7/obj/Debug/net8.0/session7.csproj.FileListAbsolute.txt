@@ -1,0 +1,15 @@
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\bin\Debug\net8.0\session7.exe
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\bin\Debug\net8.0\session7.deps.json
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\bin\Debug\net8.0\session7.runtimeconfig.json
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\bin\Debug\net8.0\session7.dll
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\bin\Debug\net8.0\session7.pdb
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\obj\Debug\net8.0\session7.GeneratedMSBuildEditorConfig.editorconfig
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\obj\Debug\net8.0\session7.AssemblyInfoInputs.cache
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\obj\Debug\net8.0\session7.AssemblyInfo.cs
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\obj\Debug\net8.0\session7.csproj.CoreCompileInputs.cache
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\obj\Debug\net8.0\session7.sourcelink.json
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\obj\Debug\net8.0\session7.dll
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\obj\Debug\net8.0\refint\session7.dll
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\obj\Debug\net8.0\session7.pdb
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\obj\Debug\net8.0\session7.genruntimeconfig.cache
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session7\obj\Debug\net8.0\ref\session7.dll
