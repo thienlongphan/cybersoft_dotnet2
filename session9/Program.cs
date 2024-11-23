@@ -12,7 +12,7 @@ internal class Program
         baiViet1.hinhAnh = "hinh1.png";
         baiViet1.noiDung = "Study oop 1";
         //Console.WriteLine($"Article 1: Title-{baiViet1.tieuDe} Picture-{baiViet1.hinhAnh} Content-{baiViet1.noiDung}");
-        baiViet1.XuatThongTin();
+        //baiViet1.XuatThongTin();
         
         BaiViet baiViet2 = new BaiViet("defaulTitle", "defaulDescription", "defaultPicture");
         baiViet2.tieuDe = "Hello 2";
@@ -21,7 +21,7 @@ internal class Program
         //baiViet2.XuatThongTin();
         
         BaiViet baiviet3 = new BaiViet("defaulTitle3", "defaulDescription3", "defaultPicture3");
-        baiviet3.XuatThongTin();
+        //baiviet3.XuatThongTin();
         
         // Bai tap nhap mon
         // tạo doi tuong hoc sinh (họ tên, tuổi, giới tính, email)
@@ -31,11 +31,16 @@ internal class Program
         student1.age = 25;
         student1.sex = "Male";
         student1.email = "john@doe.com";
-        student1.Display();
+        //student1.Display();
 
         // Bài tập về nhà luyện thêm
         // Bai1: Tạo đối tượng sản phẩm (mã sản phẩm, tên sản phẩm, giá bán, số lượng tồn kho)
         // nhap và xuất thông tin sản phẩm
+        Product product1 = new Product();
+        //product1.InputProduct();
+        //product1.DisplayProduct();
+        
+        
 
         // Bai2: 
         // Tạo lớp Rectangle với các thuộc tính:
@@ -46,5 +51,11 @@ internal class Program
         // Nhap thong tin
         // Tinh dien tich
         // Tinh chu vi
+        
+        Rectangle rectangle1 = new Rectangle();
+        rectangle1.Input();
+        rectangle1.CalculateArea();
+        rectangle1.CircumferenceCalculation();
+        rectangle1.Output();
     } 
 }
