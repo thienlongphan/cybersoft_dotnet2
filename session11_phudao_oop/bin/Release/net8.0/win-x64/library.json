@@ -1,0 +1,10 @@
+[
+  {
+    "subject": "TOAN",
+    "grade": "10",
+    "bookId": "BOOK01",
+    "bookName": "Math",
+    "author": "Long",
+    "price": 1000.0
+  }
+]

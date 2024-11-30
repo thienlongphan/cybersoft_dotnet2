@@ -1,0 +1,10 @@
+[
+  {
+    "subject": "program",
+    "grade": "program",
+    "bookId": "BOOK001",
+    "bookName": "CleanCode",
+    "author": "LongThien",
+    "price": 1000000.0
+  }
+]
