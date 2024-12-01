@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session11_baitap_oop", "ses
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session11_phudao_oop", "session11_phudao_oop\session11_phudao_oop.csproj", "{BB5CEBE8-2570-40D6-87B3-A3B82BF7AB05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "session12_oop_donggoi", "session12_oop_donggoi\session12_oop_donggoi.csproj", "{19D9FE30-E8DA-42BF-BDAE-E35B7566CE93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{BB5CEBE8-2570-40D6-87B3-A3B82BF7AB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB5CEBE8-2570-40D6-87B3-A3B82BF7AB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB5CEBE8-2570-40D6-87B3-A3B82BF7AB05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D9FE30-E8DA-42BF-BDAE-E35B7566CE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D9FE30-E8DA-42BF-BDAE-E35B7566CE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D9FE30-E8DA-42BF-BDAE-E35B7566CE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D9FE30-E8DA-42BF-BDAE-E35B7566CE93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
