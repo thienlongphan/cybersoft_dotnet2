@@ -1,0 +1,20 @@
+[
+  {
+    "ProductCode": "11",
+    "ProductName": "Iphone",
+    "ProductPrice": 1000,
+    "InventoryQuantity": 10
+  },
+  {
+    "ProductCode": "1",
+    "ProductName": "Long",
+    "ProductPrice": 100,
+    "InventoryQuantity": 1000
+  },
+  {
+    "ProductCode": "2",
+    "ProductName": "Samsung",
+    "ProductPrice": 100,
+    "InventoryQuantity": 1000
+  }
+]
