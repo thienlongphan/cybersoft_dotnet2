@@ -8,58 +8,58 @@ internal class Program
 
         #region Bai 1
 
-        // StudentManager studentManager = new StudentManager();
-        // bool isRunning = true;
-        //
-        // while (isRunning)
-        // {
-        //     Console.WriteLine("==== Student Management ====");
-        //     Console.WriteLine("1. Add Info Student: ");
-        //     Console.WriteLine("2. Find Info Student by Student Name: ");
-        //     Console.WriteLine("3. Update Score Student: ");
-        //     Console.WriteLine("4. Calculate Average Score Student and show results for student: ");
-        //     Console.WriteLine("5. Delete Student of list by Student ID: ");
-        //     Console.WriteLine("6. Show Student Info according by Average Score: ");
-        //     Console.WriteLine("7. Show Student Info according by Average Score ascending: ");
-        //     Console.WriteLine("8. Show Student Info according by Student Name Ascending: ");
-        //     Console.WriteLine("9. Exit ");
-        //     
-        //     int choice = Convert.ToInt32(Console.ReadLine());
-        //
-        //     switch (choice)
-        //     {
-        //         case 1:
-        //             studentManager.AddStudent();
-        //             break;
-        //         case 2:
-        //             studentManager.SearchStudent();
-        //             break;
-        //         case 3:
-        //             studentManager.UpdateScore();
-        //             break;
-        //         case 4:
-        //             studentManager.CalculateAvarageScore();
-        //             break;
-        //         case 5:
-        //             studentManager.DeleteStudent();
-        //             break;
-        //         case 6:
-        //             studentManager.DisplayStudentInfo();
-        //             break;
-        //         case 7:
-        //             studentManager.DisplayStudentInfo("avarageScore");
-        //             break;
-        //         case 8:
-        //             studentManager.DisplayStudentInfo("studentName");
-        //             break;
-        //         case 9:
-        //             isRunning = false;
-        //             break;
-        //         default:
-        //             Console.WriteLine("Invalid Choice. Please try again (1 -> 9).");
-        //             break;
-        //     }
-        // }
+        StudentManager studentManager = new StudentManager();
+        bool isRunningOne = true;
+        
+        while (isRunningOne)
+        {
+            Console.WriteLine("==== Student Management ====");
+            Console.WriteLine("1. Add Info Student: ");
+            Console.WriteLine("2. Find Info Student by Student Name: ");
+            Console.WriteLine("3. Update Score Student: ");
+            Console.WriteLine("4. Calculate Average Score Student and show results for student: ");
+            Console.WriteLine("5. Delete Student of list by Student ID: ");
+            Console.WriteLine("6. Show Student Info according by Average Score: ");
+            Console.WriteLine("7. Show Student Info according by Average Score ascending: ");
+            Console.WriteLine("8. Show Student Info according by Student Name Ascending: ");
+            Console.WriteLine("9. Exit ");
+            
+            int choice = Convert.ToInt32(Console.ReadLine());
+        
+            switch (choice)
+            {
+                case 1:
+                    studentManager.AddStudent();
+                    break;
+                case 2:
+                    studentManager.SearchStudent();
+                    break;
+                case 3:
+                    studentManager.UpdateScore();
+                    break;
+                case 4:
+                    studentManager.CalculateAvarageScore();
+                    break;
+                case 5:
+                    studentManager.DeleteStudent();
+                    break;
+                case 6:
+                    studentManager.DisplayStudentInfo();
+                    break;
+                case 7:
+                    studentManager.DisplayStudentInfo("avarageScore");
+                    break;
+                case 8:
+                    studentManager.DisplayStudentInfo("studentName");
+                    break;
+                case 9:
+                    isRunningOne = false;
+                    break;
+                default:
+                    Console.WriteLine("Invalid Choice. Please try again (1 -> 9).");
+                    break;
+            }
+        }
 
         #endregion
         
