@@ -1,0 +1,7 @@
+[
+  "Da thanh toan tien mat: 1000",
+  "Da thanh toan bang the: 9000",
+  "Da thanh toan online: 1000",
+  "Da thanh toan bang the: 1000",
+  "Da thanh toan bang the: 1000"
+]

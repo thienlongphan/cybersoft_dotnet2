@@ -1,0 +1,15 @@
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\bin\Debug\net8.0\christmas.exe
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\bin\Debug\net8.0\christmas.deps.json
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\bin\Debug\net8.0\christmas.runtimeconfig.json
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\bin\Debug\net8.0\christmas.dll
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\bin\Debug\net8.0\christmas.pdb
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\obj\Debug\net8.0\christmas.GeneratedMSBuildEditorConfig.editorconfig
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\obj\Debug\net8.0\christmas.AssemblyInfoInputs.cache
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\obj\Debug\net8.0\christmas.AssemblyInfo.cs
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\obj\Debug\net8.0\christmas.csproj.CoreCompileInputs.cache
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\obj\Debug\net8.0\christmas.sourcelink.json
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\obj\Debug\net8.0\christmas.dll
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\obj\Debug\net8.0\refint\christmas.dll
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\obj\Debug\net8.0\christmas.pdb
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\obj\Debug\net8.0\christmas.genruntimeconfig.cache
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\christmas\obj\Debug\net8.0\ref\christmas.dll
