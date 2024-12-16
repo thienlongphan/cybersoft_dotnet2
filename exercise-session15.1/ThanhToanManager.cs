@@ -7,7 +7,7 @@ public class ThanhToanManager
 {
     public List<string>? HistoryTransactions { get; set; }
     
-    private string _pathFile = "historyTransaction.txt";
+    private string _pathFile = "historyTransaction.json";
 
     public ThanhToanManager()
     {

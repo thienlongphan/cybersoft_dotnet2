@@ -1,0 +1,14 @@
+[
+  {
+    "Tax": 10.0,
+    "ProductCode": "1",
+    "ProductName": "Iphone 11",
+    "OriginalPrice": 500.0
+  },
+  {
+    "Discount": 5.0,
+    "ProductCode": "2",
+    "ProductName": "Adidas",
+    "OriginalPrice": 1000.0
+  }
+]

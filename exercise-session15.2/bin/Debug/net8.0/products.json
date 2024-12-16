@@ -1,0 +1,19 @@
+{
+  "$type": "System.Collections.Generic.List`1[[exercise_session15._2.Product, exercise-session15.2]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "exercise_session15._2.Electronic, exercise-session15.2",
+      "Tax": 10.0,
+      "ProductCode": "1",
+      "ProductName": "Iphone 11",
+      "OriginalPrice": 1000.0
+    },
+    {
+      "$type": "exercise_session15._2.Fashion, exercise-session15.2",
+      "Discount": 10.0,
+      "ProductCode": "2",
+      "ProductName": "Adidas",
+      "OriginalPrice": 1100.0
+    }
+  ]
+}
