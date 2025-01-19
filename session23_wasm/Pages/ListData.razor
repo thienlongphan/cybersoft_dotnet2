@@ -1,0 +1,18 @@
+@page "/list-data"
+
+<PageTitle>List Data</PageTitle>
+
+<h1>List Data Practice</h1>
+
+<div class="list-group">
+
+    @foreach(var item in SourceName) {
+        <button type="button" class="list-group-item list-group-item-action">
+            @item
+        </button>
+    }
+</div>
+
+@code {
+    private List<string> SourceName = new List<string> {"Quan Vũ", "Lưu Bị", "Trương Phi", "Tào Tháo"};
+}

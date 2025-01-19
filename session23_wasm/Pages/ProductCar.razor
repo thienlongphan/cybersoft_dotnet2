@@ -1,0 +1,42 @@
+@page "/product-car"
+
+<PageTitle>Product Car</PageTitle>
+
+<h1>Product car</h1>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-8">
+            <img src=@path class="img-thumbnail" alt="silver car">
+        </div>
+        <div class="col-4">
+            <button class="btn btn-danger" @onclick='() => UpdateColor("red")'>Red color</button>
+            <button class="btn btn-secondary" @onclick='() => UpdateColor("silver")'>Silver color</button>
+            <button class="btn btn-dark" @onclick='() => UpdateColor("black")'>Black color</button>
+        </div>
+    </div>
+</div>
+
+@code {
+     private string path="img/silver-car.jpg";
+     @* private string red = "red";
+      private string black = "black";
+      private string silver = "silver"; *@
+
+     private void UpdateColor(string color) {
+        switch(color) {
+            case "red":
+            path = "img/red-car.jpg";
+            break;
+            case "black":
+            path = "img/black-car.jpg";
+            break;
+            case "silver":
+            path = "img/silver-car.jpg";
+            break;
+            default:
+            path = "img/steel-car.jpg";
+            break;
+        }
+     }
+}

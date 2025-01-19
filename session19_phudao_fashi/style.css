@@ -1,0 +1,315 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* header */
+.header__top {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Override class container  bootstrap*/
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header__top__left {
+  display: flex;
+}
+
+.header__top__mail,
+.header__top__phone {
+  font-size: 16px;
+  color: #252525;
+  padding: 15px 20px;
+  line-height: 27px;
+}
+
+.header__top__mail {
+  border-right: 1px solid #e5e5e5;
+}
+
+.header__top__mail i,
+.header__top__phone i {
+  margin-right: 5px;
+}
+
+/* Header top right */
+.header__top__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__top__social,
+.header__top__lang {
+  border-right: 1px solid #e5e5e5;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  line-height: 27px;
+}
+
+.header__top__social a {
+  font-size: 16px;
+  color: #252525;
+  margin-right: 16px;
+}
+
+.header__top__login a {
+  color: #252525;
+  font-size: 16px;
+}
+
+.header__top__login i {
+  margin-right: 8px;
+}
+
+.header__center {
+  padding: 40px 0;
+}
+
+.header__center__logo {
+  padding-left: 19px;
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.header__center__search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  height: 50px;
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+.header__center__search .btn__category {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  color: #252525;
+  padding: 14px 60px 13px 23px;
+  position: relative;
+}
+
+.header__center__search .btn__category:after {
+  position: absolute;
+  right: 11px;
+  top: 14px;
+  content: "3";
+  font-family: "ElegantIcons";
+  font-size: 16px;
+  color: #b2b2b2;
+}
+
+.header__center__search .btn__category:before {
+  position: absolute;
+  right: 0px;
+  top: 14px;
+  width: 1px;
+  height: 20px;
+  background: #e5e5e5;
+  content: "";
+}
+
+.header__center__search .input__group {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header__center__search .input__group input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.header__center__search .input__group input:focus {
+  outline: none;
+}
+
+.header__center__search .input__group button {
+  font-size: 16px;
+  color: white;
+  border: 1px solid #e7ab3c;
+  background: #e7ab3c;
+  padding: 0px 16px;
+  line-height: 48px;
+  cursor: pointer;
+}
+
+.header__center__nav {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.header__center__nav .container {
+  justify-content: flex-end;
+}
+
+.header__center__nav a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 15px;
+  position: relative;
+}
+
+.header__center__nav span {
+  font-size: 18px;
+  color: #252525;
+  font-weight: 700;
+}
+
+.header__center__nav .shopping-bag i,
+.header__center__nav .heart i {
+  color: #252525;
+}
+
+.header__center__nav .shopping-bag span,
+.header__center__nav .heart span {
+  display: inline-block;
+  color: white;
+  background-color: #e7ab3c;
+  width: 15px;
+  height: 15px;
+  font-size: 11px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 15px;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -25%);
+}
+
+.header__center__nav .shopping-bag i span,
+.header__center__nav .heart i span {
+  display: none;
+}
