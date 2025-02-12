@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("session26_validation_component_razor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f573956e22b33da88d3039092abe85957690c245")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac1bd45ea061c670f3bc4613941c6c0d4d804fe5")]
 [assembly: System.Reflection.AssemblyProductAttribute("session26_validation_component_razor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("session26_validation_component_razor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
