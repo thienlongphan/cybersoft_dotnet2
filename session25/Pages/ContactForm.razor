@@ -1,0 +1,69 @@
+@page "/contact"
+
+<h1>Customer Contact Form</h1>
+
+<EditForm Model="contactModel" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="container d-flex gap-4">
+        <div class="form-container w-50">
+            <div class="form-group mb-3">
+                <label for="fullname">Full name</label>
+                <input type="text" id="fullname" class="form-control" @bind="contactModel.FullName">
+                <ValidationMessage For="@(() => contactModel.FullName)" />
+            </div>
+             <div class="form-group mb-3">
+                <label for="email">Email</label>
+                <input type="text" id="email" class="form-control" @bind="contactModel.Email">
+                <ValidationMessage For="@(() => contactModel.Email)" />
+            </div>
+             <div class="form-group mb-3">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" class="form-control" @bind="contactModel.PhoneNumber">
+                <ValidationMessage For="@(() => contactModel.PhoneNumber)" />
+            </div>
+             <div class="form-group mb-3">
+                <label for="address">Address</label>
+                <input type="text" id="phone" class="form-control" @bind="contactModel.Address">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" @bind="contactModel.Message"></textarea>
+                <ValidationMessage For="@(() => contactModel.Message)" />
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect2">Select service</label>
+                <select class="form-control" id="exampleFormControlSelect2" @bind="contactModel.Service">
+                    <option>Service 1</option>
+                    <option>Service 2</option>
+                </select>
+                <ValidationMessage For="@(() => contactModel.Service)" />
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" @bind="contactModel.AgreeCondition">
+                <label class="form-check-label" for="exampleCheck1">I agree to the terms and conditions</label>
+                <ValidationMessage For="@(() => contactModel.AgreeCondition)" />
+            </div>
+            <button class="btn btn-primary w-100">Submit</button>
+        </div>
+        <div class="form-information w-50">
+            <h3>Contact information</h3>
+                <p><strong>Fullname:</strong> @contactModel.FullName</p>
+                <p><strong>Email:</strong> @contactModel.Email</p>
+                <p><strong>Phone number:</strong> @contactModel.PhoneNumber</p>
+                <p><strong>Message:</strong> @contactModel.Message</p>
+                <p><strong>Service:</strong> @contactModel.Service</p>
+                <p><strong>agree Condition:</strong> @contactModel.AgreeCondition</p>
+        </div>
+        
+    </div>
+    
+</EditForm>
+
+@code {
+    private ContactModel contactModel = new ContactModel();
+
+    private void HandleValidSubmit() 
+    {
+        Console.WriteLine("Register Contact success");
+    }
+}
