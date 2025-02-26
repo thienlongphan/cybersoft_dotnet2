@@ -1,0 +1,67 @@
+@page "/form";
+
+<div class="container">
+    <div class="card shadow">
+  
+  <div class="card-body">
+    <h1 class="fw-bold text-center">Customer contact form</h1>
+    <EditForm Model="ContactModel" OnValidSubmit="Submit">
+        <DataAnnotationsValidator />
+    <div class="form-group mb-2">
+    <label for="fullname">Full name</label>
+    <input type="text" class="form-control" id="fullname" placeholder="Full name" @bind-value="ContactModel.FullName">
+    <ValidationMessage For="() => ContactModel.FullName" />
+
+  </div>
+  <div class="form-group mb-2">
+    <label for="email">Email address <span style="color: red;">*</span></label>
+    <input type="email" class="form-control" id="email" placeholder="name@example.com" @bind-value="ContactModel.Email">
+    <ValidationMessage For="() => ContactModel.Email" />
+  </div>
+
+  <div class="form-group mb-2">
+    <label for="phone">phone number  <span style="color: red;">*</span></label>
+    <input type="text" class="form-control" id="phone" placeholder="phone number" @bind-value="ContactModel.PhoneNumber">
+    <ValidationMessage For="() => ContactModel.PhoneNumber" />
+  </div>
+  <div class="form-group mb-2">
+    <label for="address">Address </label>
+    <input type="text" class="form-control" id="address" placeholder="Enter your address" @bind-value="ContactModel.Address">
+    <ValidationMessage For="() => ContactModel.Address" />
+  </div>
+  <div class="form-group mb-2">
+    <label for="message">Message <span style="color: red;">*</span></label>
+    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message" @bind="ContactModel.Message"></textarea>
+    <ValidationMessage For="() => ContactModel.Message" />
+  </div>
+  <div class="form-group mb-2">
+    <label for="service">Select your service <span style="color: red;">*</span></label>
+    <select class="form-control" id="service" @bind="ContactModel.Service">
+        <option value="">Choose...</option>
+      <option value="fullOption">Full option</option>
+      <option value="another">Another one</option>
+    </select>
+    <ValidationMessage For="() => ContactModel.Service" />
+  </div>
+  <div class="form-check form-check-inline mb-4 d-flex">
+  <input class="form-check-input mr-2" type="checkbox" id="inlineCheckbox1" @bind-value="ContactModel.Agree">
+  <label class="form-check-label" for="inlineCheckbox1">I agree the terms and conditions <span style="color: red;">*</span></label>
+  <ValidationMessage For="() => ContactModel.Agree" />
+</div>
+<div>
+  <button type="submit" class="btn btn-primary w-100">Submmit</button>
+  </div>
+</EditForm>
+  </div>
+</div>
+   
+</div>
+
+@code {
+    private Contact ContactModel { get; set; } = new();
+
+    private void Submit() 
+    {
+        Console.WriteLine("Submit");
+    }
+}

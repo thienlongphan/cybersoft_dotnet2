@@ -1,0 +1,117 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\obj\\Debug\\net8.0\\compressed\\adupdikzci.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\obj\\Debug\\net8.0\\scopedcss\\bundle\\session30.styles.css",
+      "PackagePath": "staticwebassets\\session30.styles.css"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\hotels.json",
+      "PackagePath": "staticwebassets\\hotels.json"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\images\\1.webp",
+      "PackagePath": "staticwebassets\\images\\1.webp"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\images\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\10.jpg"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\images\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\11.jpg"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\images\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\12.jpg"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\images\\2.webp",
+      "PackagePath": "staticwebassets\\images\\2.webp"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\4.jpg"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\images\\5.webp",
+      "PackagePath": "staticwebassets\\images\\5.webp"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\images\\6.webp",
+      "PackagePath": "staticwebassets\\images\\6.webp"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\images\\7.webp",
+      "PackagePath": "staticwebassets\\images\\7.webp"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\images\\8.webp",
+      "PackagePath": "staticwebassets\\images\\8.webp"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\9.jpg"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session30\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.session30.props",
+      "PackagePath": "build\\session30.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.session30.props",
+      "PackagePath": "buildMultiTargeting\\session30.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.session30.props",
+      "PackagePath": "buildTransitive\\session30.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.session30.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

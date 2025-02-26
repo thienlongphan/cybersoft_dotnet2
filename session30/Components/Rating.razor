@@ -1,0 +1,12 @@
+<div style="color: yellow">
+                        @for(int i = 0; i < 5; i ++) 
+                    {
+                        <span>@(i < RatingInput ? "★" : "☆")</span>
+                    }
+                    </div>
+
+
+@code {
+    [Parameter]
+    public int RatingInput { get; set; } = 0;
+}

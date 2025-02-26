@@ -1,0 +1,42 @@
+@if(IsLoading) 
+{
+    <Loading Title="@Title" />
+}
+else 
+{
+    <div>
+        <h2 class="fs-1 fw-bold text-secondary">@Title</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            @foreach(var hotel in Hotels) 
+            {
+                <div class="col">
+                    <div class="h-100 card">
+                        <img src="@hotel.ImageUrl" class="card-img-top" style="height:320px; object-fit: cover;" alt="">
+                        <div class="card-body">
+                    <h5>@hotel.Name</h5>
+                    @* Render rating *@
+                    <Rating RatingInput="@hotel.Rating" />
+                    
+                    <p>@hotel.Description</p>
+                </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+
+
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "";
+
+    [Parameter]
+    public List<HotelModel> Hotels { get; set; } = new();
+
+    [Parameter]
+    public bool IsLoading { get; set; } = false;
+
+}

@@ -1,0 +1,25 @@
+﻿@page "/"
+<div>
+    <h1>AirBnB</h1>
+    <LocationSection Title="Paris" Hotels="@ParisHotels" IsLoading="@IsLoading"/>
+    <LocationSection Title="London" Hotels="@LondonHotels" IsLoading="@IsLoading"/>
+</div>
+
+@code {
+    [Inject]
+    private HotelService HotelService {get; set;} = default;
+
+    private List<HotelModel> ParisHotels = new();
+
+    private List<HotelModel> LondonHotels = new();
+    private bool IsLoading { get; set; } = false;
+
+    protected override async Task OnInitializedAsync() 
+    {
+        IsLoading= true;
+        await Task.Delay(2000);
+        ParisHotels = await HotelService.GetHotelByCityAsync("Paris");
+        LondonHotels = await HotelService.GetHotelByCityAsync("London");
+        IsLoading= false;
+    }
+}

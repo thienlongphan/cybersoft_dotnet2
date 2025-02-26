@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\exercise-session27\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\exercise-session27\\obj\\Debug\\net8.0\\compressed\\adupdikzci.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\exercise-session27\\obj\\Debug\\net8.0\\scopedcss\\bundle\\exercise-session27.styles.css",
+      "PackagePath": "staticwebassets\\exercise-session27.styles.css"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\exercise-session27\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\exercise-session27\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\exercise-session27\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\exercise-session27\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\exercise-session27\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\exercise-session27\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\exercise-session27\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.exercise-session27.props",
+      "PackagePath": "build\\exercise-session27.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.exercise-session27.props",
+      "PackagePath": "buildMultiTargeting\\exercise-session27.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.exercise-session27.props",
+      "PackagePath": "buildTransitive\\exercise-session27.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.exercise-session27.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

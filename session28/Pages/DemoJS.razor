@@ -1,0 +1,24 @@
+@page "/demo-js-blazor"
+
+@inject IJSRuntime IJSRuntime
+
+<div>
+    <button class="btn btn-primary" @onclick="HandleJS">TestJS</button>
+    <button class="btn btn-secondary" @onclick="Sum">SUMJS</button>
+</div>
+
+@code 
+{
+    private async Task HandleJS() 
+    {
+        @* await IJSRuntime.InvokeVoidAsync("console.log", "Hello from Blazor but it's from Javascript"); *@
+        await IJSRuntime.InvokeVoidAsync("longTest", "Hello from Blazor but it's from Custom Function JS");
+    }
+    private async Task Sum() 
+    {
+        int a = 1;
+        int b = 2;   
+        int result = await IJSRuntime.InvokeAsync<int>("sum", a, b);
+        Console.WriteLine(result);
+    }
+}

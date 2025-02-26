@@ -26,8 +26,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/long-coding/courses/cybersoft-netcore/cybersoft_dotnet2/session28/Components/ProductItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9kdWN0SXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/long-coding/courses/cybersoft-netcore/cybersoft_dotnet2/session28/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/long-coding/courses/cybersoft-netcore/cybersoft_dotnet2/session28/Pages/DemoJS.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtb0pTLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/long-coding/courses/cybersoft-netcore/cybersoft_dotnet2/session28/Pages/Home.razor]

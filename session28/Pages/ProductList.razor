@@ -1,13 +1,21 @@
 @page "/products"
 @inject ProductService productService;
 
+
 <h1 class="text-primary">Product List</h1>
 
 
 @* thanh search *@
 <div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Search Product" >
-    <button class="btn btn-primary">Search</button>
+    <input 
+    type="text" 
+    class="form-control" 
+    placeholder="Search Product" 
+    @bind="SearchQuery"
+    @bind:event="oninput"
+    @onkeydown="HandleEnter"
+    >
+    <button class="btn btn-primary" @onclick="SearchProduct">Search</button>
 </div>
 
 @if(IsLoading) 
@@ -29,14 +37,7 @@ else
         @foreach(var product in displayProducts) 
         {
             <div class="col">
-            <div class="card h-100 shadow-sm">
-                <img class="card-img-top" src="@product.Image" alt="">
-                <div class="card-body">
-                    <h4 class="card-title">@product.Name</h4>
-                    <p class="card-text text-success fw-bold">@product.Price</p>
-                    <p class="card-text">@product.Quantity</p>
-                </div>
-            </div>
+            <ProductItem product="product" />
         </div>
         }
         
@@ -54,17 +55,28 @@ else
     private List<Product> products = new List<Product>();
 
     private List<Product> displayProducts = new List<Product>();
+
+    private List<Product> filterProducts = new List<Product>();
     
     private bool IsLoading = true;
     private string SearchQuery = "";
     private int CurrentPage = 1;
     private int PageSize = 6;
-    private int TotalPages => (int)Math.Ceiling((double)products.Count / PageSize);
+    private int totalPages;
+    private int TotalPages 
+    {
+        get => (int)Math.Ceiling((double)products.Count / PageSize);
+        set 
+        {
+            totalPages = value;
+        }
+    }
 
     @* Dùng hàm OnInitial *@
     protected override async Task OnInitializedAsync() 
     {
         await LoadData();
+        Console.WriteLine(TotalPages);
     }
 
     private void UpdateDisplayProducts() 
@@ -105,5 +117,24 @@ else
             UpdateDisplayProducts();
         }
         
+    }
+
+    private void SearchProduct() 
+    {
+        var filterProducts = products
+                             .Where(p => string.IsNullOrEmpty(SearchQuery) || p.Name.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase))
+                             .ToList();
+        CurrentPage = 1;
+        products = filterProducts;
+        TotalPages = (int)Math.Ceiling((double)displayProducts.Count / PageSize);
+        StateHasChanged();
+    }
+
+    private void HandleEnter(KeyboardEventArgs e) 
+    {
+        if(e.Key == "Enter") 
+        {
+            SearchProduct();
+        }
     }
 }

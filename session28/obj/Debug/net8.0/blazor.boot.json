@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "session28",
   "resources": {
-    "hash": "sha256-OLNdCC0BrzKUDDkvO4iP/0S8OK1topZGyOrUPbSdii8=",
+    "hash": "sha256-yXlyUDm1KF4dtwBBeyQE40uYU7LhM3spgnH6zpq6bZY=",
     "jsModuleNative": {
       "dotnet.native.8.0.10.g1gvktqqnp.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-KvqZaNpjwhrOuzE4b4aMFsI+VUTyiWfoDI4zn4l9BM8=",
       "netstandard.wasm": "sha256-v+s7sWxtOM6bnOvC0jFrtnm6uMfbDymwl2nHNgbS2LM=",
       "System.Private.CoreLib.wasm": "sha256-pklll63uFQoY6vaD3vbluS9osYiJWLLLmob1yHFgepI=",
-      "session28.wasm": "sha256-Iii1DjB+hUtaYfCdmFJNrkBgpMZOA6jgKWZe1LjyiCg="
+      "session28.wasm": "sha256-Uqlni7WEWFIUSUkcnm0EanJp/1Red0beRzGdbsDoXAI="
     },
     "pdb": {
-      "session28.pdb": "sha256-FliCy4TDnJAfrUSAL/nurHvYk3x68iktQTIHYivwbhg="
+      "session28.pdb": "sha256-TuPgjmRNX2sL73obtu2/M367Mbq373NqxpEtt5kjH5U="
     }
   },
   "cacheBootResources": true,
