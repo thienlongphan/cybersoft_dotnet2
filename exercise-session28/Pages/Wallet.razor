@@ -1,0 +1,96 @@
+@inject IDialogService DialogService;
+@inject ISnackbar Snackbar;
+
+@page "/wallet";
+    <div class="wrapper">
+        <div class="container wrapper-wallet">
+        <h1>My Wallet</h1>
+        <div class="display-price">
+
+            <span>$@Balance</span>
+            <span>Total Balance</span>
+        </div>
+        <div class="actions">
+            <button class="btn" @onclick="OpenDialogDepositAsync">Deposit</button>
+            <button class="btn" @onclick="OpenDialogWithdrawAsync">Withdraw</button>
+        </div>
+        <h4>Transaction History</h4>
+        <ul class="list-group history">
+            @if(Histories.Any()) 
+            {
+                    @foreach(HistoryModel item in Histories) 
+                {
+                    <li class=@(item.ActionState == "deposit" ? "list-group-item history-item history-deposit" : "list-group-item history-item history-withdraw")>
+                        <span style="text-transform: capitalize;">@item.ActionState</span>
+                        <span>$@item.Amount</span>
+                        <span>@item.DateAction</span>
+                    </li>
+                }
+            }
+           
+        </ul>
+        </div>
+    </div>
+
+@code {
+    private double Balance { get; set; } = 0.00;
+    private List<HistoryModel> Histories { get; set; } = new();
+
+    private async Task OpenDialogDepositAsync()
+    {
+        var options = new DialogOptions { CloseOnEscapeKey = true };
+
+        var dialog = await DialogService.ShowAsync<WalletDialog>("Deposit Money", options);
+        var result = await dialog.Result;
+        if(!result.Canceled && result.Data != null) 
+        {
+            DepositAction((double)result.Data);
+        }
+    }
+
+    private async  Task OpenDialogWithdrawAsync()
+    {
+        var options = new DialogOptions { CloseOnEscapeKey = true };
+
+        var dialog = await DialogService.ShowAsync<WalletDialog>("Withdraw Money", options);
+        var result = await dialog.Result;
+        if(!result.Canceled && result.Data != null) 
+        {
+            WithdrawAction((double)result.Data);
+        }
+    }
+
+    private void DepositAction(double amount) 
+    {
+        Balance += amount;
+        Histories.Add(new HistoryModel 
+        {
+            ActionState = "deposit",
+            Amount = amount,
+            DateAction = DateTime.Now
+        });
+        Snackbar.Add("Deposit Success", Severity.Success);
+    }
+
+    private void WithdrawAction(double amount) 
+    {
+         var result = Balance - amount;
+         if(result >= 0) 
+         {
+            Balance = result;
+            Histories.Add(new HistoryModel 
+            {
+                ActionState = "withdraw",
+                Amount = amount,
+                DateAction = DateTime.Now
+            });
+            Snackbar.Add("Withdraw Success", Severity.Success);
+         }
+         else 
+         {
+            Snackbar.Add("Withdraw Failed, Balance does not enough to withdraw", Severity.Error);
+         }
+
+        
+    }
+}

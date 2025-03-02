@@ -1,0 +1,33 @@
+
+
+<MudDialog>
+    <TitleContent>
+        <h3>
+            @MudDialog.Title
+        </h3>
+    </TitleContent>
+    <DialogContent>
+        <EditForm Model="WalletDialogModel" OnValidSubmit="Submit">
+            <DataAnnotationsValidator />
+            <div class="form-group mb-3">
+                <label for="amount">Amount</label>
+                <input type="number" class="form-control" id="amout" placeholder="0" @bind-value="WalletDialogModel.Amount">
+                <ValidationMessage For="() => WalletDialogModel.Amount" />
+            </div>
+            <div style="display: flex; justify-content: flex-end; gap: 10px;">
+                <button class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+                <button type="submit" class="btn btn-primary">Ok</button>
+            </div>
+        </EditForm>
+    </DialogContent>
+</MudDialog>
+
+@code {
+    [CascadingParameter]
+    private IMudDialogInstance MudDialog { get; set; }
+
+    private void Submit() => MudDialog.Close(DialogResult.Ok(WalletDialogModel.Amount));
+
+    private void Cancel() => MudDialog.Cancel();
+    private WalletDialogModel WalletDialogModel { get; set; } = new();
+}
