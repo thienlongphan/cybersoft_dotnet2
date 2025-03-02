@@ -18,15 +18,58 @@
                     <ValidationMessage For="() => FeedbackModel.Cleaniness" />
                 </div>
                 <div class="col-md-6">
-                    <div class="col-md-6">
-                    <label for="firstname" class="form-label">First Name</label>
-                    <input type="text" class="form-input" @bind-value="FeedbackModel.FirstName">
-                    <ValidationMessage For="() => FeedbackModel.FirstName" />
+                    <label for="staff" class="form-label">Staff</label>
+                    <input type="range" class="form-range" min="0" max="10" step="0.5" @bind-value="FeedbackModel.Staff">
+                    <ValidationMessage For="() => FeedbackModel.Staff" />
                 </div>
-                </div>
+                
+                
 
-                <button type="submit" class="btn btn-primary">Submit</button> 
+                
             </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="comfort" class="form-label">Comfort</label>
+                    <input type="range" class="form-range" min="0" max="10" step="0.5" @bind-value="FeedbackModel.Comfort">
+                    <ValidationMessage For="() => FeedbackModel.Comfort" />
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="value" class="form-label">Value</label>
+                    <input type="range" class="form-range" min="0" max="10" step="0.5" @bind-value="FeedbackModel.Value">
+                    <ValidationMessage For="() => FeedbackModel.Value" />
+                </div>
+            </div>
+            <div class="row">
+                <h4>Guest information</h4>
+                <div class="row">
+                    <div class="cold-md-6">
+                        <label for="firtName" class="form-label">First name</label>
+                        <InputText class="form-control" id="firstName" @bind-Value="FeedbackModel.FirstName"/>
+                        <ValidationMessage For="() => FeedbackModel.FirstName" />
+                    </div>
+                    <div class="cold-md-6">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <InputText class="form-control" id="lastName" @bind-Value="FeedbackModel.LastName"/>
+                        <ValidationMessage For="() => FeedbackModel.LastName" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cold-md-6">
+                        <label for="userName" class="form-label">User name</label>
+                        <InputText class="form-control" id="userName" @bind-Value="FeedbackModel.UserName"/>
+                        <ValidationMessage For="() => FeedbackModel.UserName" />
+                    </div>
+                    <div class="cold-md-6">
+                        <label for="email" class="form-label">Email</label>
+                        <InputText class="form-control" id="email" @bind-Value="FeedbackModel.Email"/>
+                        <ValidationMessage For="() => FeedbackModel.Email" />
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button> 
         </EditForm>
     </div>
 </div>
@@ -55,7 +98,7 @@
     public async Task HandleValidSubmit() 
     {
         Console.WriteLine("Check submit");
-        await JSRuntime.InvokeVoidAsync("showFeedbackModal");
+        await JSRuntime.InvokeVoidAsync("showFeedbackModal", FeedbackModel);
     }
 
 }

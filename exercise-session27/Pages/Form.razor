@@ -8,7 +8,7 @@
     <EditForm Model="ContactModel" OnValidSubmit="Submit">
         <DataAnnotationsValidator />
     <div class="form-group mb-2">
-    <label for="fullname">Full name</label>
+    <label for="fullname">Full name <span style="color: red;">*</span></label>
     <input type="text" class="form-control" id="fullname" placeholder="Full name" @bind-value="ContactModel.FullName">
     <ValidationMessage For="() => ContactModel.FullName" />
 

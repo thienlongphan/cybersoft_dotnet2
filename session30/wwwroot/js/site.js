@@ -5,11 +5,10 @@ window.scrollToTop = () => {
   });
 };
 
-function showFeedbackModal() {
-  console.log("FeebackModel");
-  const feedbackModal = new bootstrap.modal(
-    document.getElementById("feedbackModal"),
-    {}
+function showFeedbackModal(feedbackModal) {
+  console.log("FeebackModel", feedbackModal);
+  var feedbackModal = new bootstrap.Modal(
+    document.getElementById("feedbackModal")
   );
   feedbackModal.show();
 }
