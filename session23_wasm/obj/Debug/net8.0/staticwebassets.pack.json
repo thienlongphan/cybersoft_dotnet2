@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session23_wasm\\obj\\Debug\\net8.0\\compressed\\adupdikzci.gz",
-      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
-    },
-    {
       "Id": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session23_wasm\\obj\\Debug\\net8.0\\scopedcss\\bundle\\session23_wasm.styles.css",
       "PackagePath": "staticwebassets\\session23_wasm.styles.css"
     },
@@ -67,6 +63,10 @@
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.session23_wasm.props",
       "PackagePath": "buildTransitive\\session23_wasm.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.session23_wasm.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.session23_wasm.Microsoft.AspNetCore.StaticWebAssets.props",

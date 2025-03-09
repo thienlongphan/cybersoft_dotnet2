@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\session32_signalR.Client.props" />
-</Project>

@@ -35,3 +35,7 @@ build_metadata.AdditionalFiles.CssScope =
 [F:/long-coding/courses/cybersoft-netcore/cybersoft_dotnet2/session32_signalR/session32_signalR.Client/Pages/Chat.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-oo2ecs2ed0
+
+[F:/long-coding/courses/cybersoft-netcore/cybersoft_dotnet2/session32_signalR/session32_signalR.Client/Pages/ChatDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhdERlbW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-lt1mdit2qw

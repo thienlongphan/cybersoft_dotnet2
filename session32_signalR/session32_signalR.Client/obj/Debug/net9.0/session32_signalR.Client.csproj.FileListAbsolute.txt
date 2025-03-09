@@ -46,8 +46,6 @@ F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\ses
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Win32.Registry.a32fqwbg5a.wasm
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\mscorlib.5q5u0swn6q.wasm
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\netstandard.w8gk1pigg1.wasm
-F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\session32_signalR.Client.x4ohvqpv14.pdb
-F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\session32_signalR.Client.3b7tunoc46.wasm
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\System.AppContext.uyzczx3u46.wasm
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\System.Buffers.gb72qmeqj8.wasm
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\System.Collections.Concurrent.aos1w28dak.wasm
@@ -223,7 +221,6 @@ F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\ses
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\System.Xml.XmlDocument.bsbtqmbjoe.wasm.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dx9fb95hwm.wasm.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\System.ValueTuple.fwu7iv3lz0.wasm.gz
-F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\session32_signalR.Client.x4ohvqpv14.pdb.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\System.ComponentModel.Annotations.ckge75x1cm.wasm.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\System.Diagnostics.Contracts.w6z74jygrt.wasm.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\System.AppContext.uyzczx3u46.wasm.gz
@@ -307,7 +304,6 @@ F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\ses
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\System.IO.lay2nsqfv6.wasm.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\System.Xml.XDocument.c8hpq78uqn.wasm.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.mx06pw429a.wasm.gz
-F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\session32_signalR.Client.3b7tunoc46.wasm.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.runtime.tsg4gsv2hg.js.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\mscorlib.5q5u0swn6q.wasm.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\System.Net.HttpListener.lfch2dzlma.wasm.gz
@@ -846,6 +842,7 @@ F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\ses
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\webcil\System.Private.CoreLib.wasm
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\webcil\session32_signalR.Client.wasm
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\scopedcss\Pages\Chat.razor.rz.scp.css
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\scopedcss\Pages\ChatDemo.razor.rz.scp.css
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\scopedcss\bundle\session32_signalR.Client.styles.css
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\scopedcss\projectbundle\session32_signalR.Client.bundle.scp.css
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\blazor.build.boot-extension.json
@@ -853,8 +850,8 @@ F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\ses
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\m566njg134-tswichycbp.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\tr0uzr2jg8-tswichycbp.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\51tew430a2-md9yvkcqlf.gz
-F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\wv4m496u8d-u9ipp00ju6.gz
-F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\nhydz8ckqg-u9ipp00ju6.gz
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\wv4m496u8d-lspkh25eu0.gz
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\nhydz8ckqg-lspkh25eu0.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\02riih3p65-n41ua9ceve.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\6pndmjq429-h4ild4sjod.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\84in4pf57g-9at76jd5um.gz
@@ -1064,9 +1061,6 @@ F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\ses
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\szoodgf9yr-tjcz0u77k5.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\5ldvk2htzr-tptq2av103.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\i7ft3b7n63-lfu7j35m59.gz
-F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\hvmpaaqqim-3b7tunoc46.gz
-F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\1hmh818vjn-x4ohvqpv14.gz
-F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\ni5b0qnr9w-4rcw5p6klk.gz
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\staticwebassets.build.json
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\staticwebassets.development.json
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -1081,3 +1075,10 @@ F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\ses
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\refint\session32_signalR.Client.dll
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\session32_signalR.Client.pdb
 F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\ref\session32_signalR.Client.dll
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\session32_signalR.Client.n00hxnkdu8.pdb
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\session32_signalR.Client.a0wjo1ocgj.wasm
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\session32_signalR.Client.n00hxnkdu8.pdb.gz
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\bin\Debug\net9.0\wwwroot\_framework\session32_signalR.Client.a0wjo1ocgj.wasm.gz
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\hvmpaaqqim-a0wjo1ocgj.gz
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\1hmh818vjn-n00hxnkdu8.gz
+F:\long-coding\courses\cybersoft-netcore\cybersoft_dotnet2\session32_signalR\session32_signalR.Client\obj\Debug\net9.0\compressed\ni5b0qnr9w-waey328ux3.gz

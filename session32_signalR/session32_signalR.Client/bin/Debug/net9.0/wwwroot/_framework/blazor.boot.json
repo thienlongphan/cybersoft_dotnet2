@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "session32_signalR.Client",
   "resources": {
-    "hash": "sha256-dQlB7LVikkHyP388/QiM+EqLWZsFseb4UxrOO/VmV6I=",
+    "hash": "sha256-fi8t2DLRYXkjjqYpOZst/EptFPElXYRKb1xV3lxbcdU=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.n41ua9ceve.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.h4ild4sjod.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -210,8 +210,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "session32_signalR.Client.3b7tunoc46.wasm": "session32_signalR.Client.wasm",
-      "session32_signalR.Client.x4ohvqpv14.pdb": "session32_signalR.Client.pdb"
+      "session32_signalR.Client.a0wjo1ocgj.wasm": "session32_signalR.Client.wasm",
+      "session32_signalR.Client.n00hxnkdu8.pdb": "session32_signalR.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8bti36lthm.js": "sha256-HFADmT26AarHu4tMjFaTPxINmQjBJGtdPN+CKjtNMFE="
@@ -430,10 +430,10 @@
       "WindowsBase.tuf34ieu7y.wasm": "sha256-Bd+l972cOS1eVeLzrQNlgD6LPWV1QXBSzJhv8Tx1WGI=",
       "mscorlib.5q5u0swn6q.wasm": "sha256-g9cI1sECkF7bxMqOSB+W0a4utdDsqTrqZzyiAEeA65g=",
       "netstandard.w8gk1pigg1.wasm": "sha256-QFR5QNPfvyZTexW3IA/AFx6ZmIF/TecvOUsSK4gM4po=",
-      "session32_signalR.Client.3b7tunoc46.wasm": "sha256-P+TaSV0DzAMGTnyxHH4P7RAJ7kRdtJUzhhvx7J/0E9E="
+      "session32_signalR.Client.a0wjo1ocgj.wasm": "sha256-ymSAZ66XKngQxq6mAK5JIXofVgfbEhAqdBv9svHBJRk="
     },
     "pdb": {
-      "session32_signalR.Client.x4ohvqpv14.pdb": "sha256-j/Rw4ddtQBCgJ8xW5MvJABQjPpXSM8LGUJCQX+whDuE="
+      "session32_signalR.Client.n00hxnkdu8.pdb": "sha256-VxdDVr2wRx4ghCo1wo7ckm9c4ph6QNeIqC9W3wYLNB8="
     }
   },
   "cacheBootResources": true,

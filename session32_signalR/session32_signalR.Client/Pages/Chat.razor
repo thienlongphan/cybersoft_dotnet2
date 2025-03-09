@@ -168,7 +168,7 @@
             }
         });
 
-         hubConnection.On<string, string>("LeaveGroup", (group, sender, message) => {
+         hubConnection.On<string, string, string>("LeaveGroup", (group, sender, message) => {
             if(chatRooms.ContainsKey(group)) {
                 chatRooms[group].Add($"{sender}: {message}");
                 InvokeAsync(StateHasChanged);
