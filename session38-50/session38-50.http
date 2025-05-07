@@ -1,0 +1,6 @@
+@session38_50_HostAddress = http://localhost:5291
+
+GET {{session38_50_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

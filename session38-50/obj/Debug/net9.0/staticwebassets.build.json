@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "ADNM2UHgNu2lgdPfYy6JEJIsprL0RfsjzMoURfK/Rp0=",
+  "Source": "session38-50",
+  "BasePath": "_content/session38-50",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "session38-50\\wwwroot",
+      "Source": "session38-50",
+      "ContentRoot": "F:\\long-coding\\courses\\cybersoft-netcore\\cybersoft_dotnet2\\session38-50\\wwwroot\\",
+      "BasePath": "_content/session38-50",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

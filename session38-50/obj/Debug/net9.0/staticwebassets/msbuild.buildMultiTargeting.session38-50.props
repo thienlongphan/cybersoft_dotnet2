@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\session38-50.props" />
+</Project>
