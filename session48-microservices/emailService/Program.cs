@@ -8,7 +8,9 @@ builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
-builder.Services.AddScoped<EmailService>();
+builder.Services.AddSingleton<IEmailService, EmailService>();
+builder.Services.AddHostedService<KafkaConsumerService>();
+
 
 var app = builder.Build();
 
@@ -23,12 +25,5 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.MapControllers();
 
-
-
-
 app.Run();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

@@ -12,10 +12,11 @@ builder.Services.AddDbContext<AuthDbContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 builder.Services.AddScoped<AuthService>();
+builder.Services.AddSingleton<KafkaProducerService>();
 
 builder.Services.AddHttpClient("EmailService", client =>
 {
-    client.BaseAddress = new Uri(builder.Configuration["Services:EmailService"]);
+    client.BaseAddress = new Uri(builder.Configuration["Services:EmailService"]!);
 });
 
 // Add services to the container.

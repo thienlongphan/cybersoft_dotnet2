@@ -9,16 +9,20 @@ public class AuthService
 {
     private readonly AuthDbContext _context;
     private readonly IConfiguration _configuration;
-    private readonly IHttpClientFactory _httpClientFactory;
+    // private readonly IHttpClientFactory _httpClientFactory;
+    private readonly KafkaProducerService _kafkaProducerService;
 
     public AuthService(
         AuthDbContext context, 
         IConfiguration configuration, 
-        IHttpClientFactory httpClientFactory)
+        // IHttpClientFactory httpClientFactory,
+        KafkaProducerService kafkaProducerService
+        )
     {
         _context = context;
         _configuration = configuration;
-        _httpClientFactory = httpClientFactory;
+        // _httpClientFactory = httpClientFactory;
+        _kafkaProducerService = kafkaProducerService;
     }
 
     public async Task<AuthResponseDTO> Register(RegisterDTO registerDTO)
@@ -37,12 +41,13 @@ public class AuthService
         _context.Users.Add(user);
         await _context.SaveChangesAsync();
         // Send email welcome -> call API Email Service
-        var client = _httpClientFactory.CreateClient("EmailService");
-        await client.PostAsJsonAsync("api/email/welcome", new
-        {
-            email = registerDTO.Email,
-            username = registerDTO.Username,
-        });
+        // var client = _httpClientFactory.CreateClient("EmailService");
+        // await client.PostAsJsonAsync("api/email/welcome", new
+        // {
+        //     email = registerDTO.Email,
+        //     username = registerDTO.Username,
+        // });
+        await _kafkaProducerService.PublishUserRegisteredEvent(user.Email, user.Username);
         
         return new AuthResponseDTO
         {
