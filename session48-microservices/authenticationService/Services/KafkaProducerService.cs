@@ -12,7 +12,7 @@ public class KafkaProducerService
     {
         var config = new ProducerConfig
         {
-            BootstrapServers = "localhost:9092",
+            BootstrapServers = "kafka-container:9092",
         };
         _producer = new ProducerBuilder<string, string>(config).Build();
     }

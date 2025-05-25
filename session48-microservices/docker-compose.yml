@@ -29,8 +29,10 @@ services:
       - KAFKA_CFG_LOG_DIRS=/tmp/kraft-combined-logs
       - ALLOW_PLAINTEXT_LISTENER=yes
     volumes:
-      - kafka_data:/bitnami/kafka
-      
+      - kafka_data:/bitnami/
+  authenticationservice:
+    image: authenticationservice
+
 volumes:
   kafka_data:
     driver: local
